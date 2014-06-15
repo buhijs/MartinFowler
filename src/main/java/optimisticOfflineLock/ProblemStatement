@@ -1,0 +1,19 @@
+In a multi-user concurrent system.
+
+How are we going to maintain integrity of data.
+
+The data can be in any data-source. It is not mandate it is in database.
+
+How are we going to allow multiple users to work on same object's with out leading them to
+collusion in data.
+
+How are we going to do this in an optimistic way. Not making our system un-popular.
+
+Solution 1: Optimistic Offline Lock
+
+Thing's to take in consideration : System Transaction and Business Transaction.
+
+Reference for code and implementation:
+To get a real time feel of this go through
+https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/transactions.html
+

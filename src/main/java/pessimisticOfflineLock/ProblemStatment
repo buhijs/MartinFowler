@@ -1,0 +1,5 @@
+How are we going to maintain data integrity in a multi-user concurrent system?
+
+How are we going to overcome the limitations of Optimistic offline locking?
+
+Solution 2: PessimisticOfflineLock
