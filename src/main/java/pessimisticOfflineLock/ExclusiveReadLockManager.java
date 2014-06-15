@@ -14,5 +14,5 @@ public interface ExclusiveReadLockManager {
 
     public void releaseLock(Long lockable, String owner);
 
-    public void relaseAllLocks(String owner);
+    public void releaseAllLocks(String owner);
 }
