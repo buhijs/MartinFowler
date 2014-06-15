@@ -12,7 +12,6 @@ public class AppSessionManager {
 
     public static void setSession(AppSession session) {
         current.set(session);
+
     }
-
-
 }
