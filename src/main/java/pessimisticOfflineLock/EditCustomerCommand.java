@@ -19,5 +19,6 @@ public class EditCustomerCommand extends BusinessTransactionCommand {
     }
 
     private void forward(String s) {
+
     }
 }

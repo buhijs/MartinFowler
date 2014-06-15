@@ -15,3 +15,12 @@ Three steps to implement this.
 1. Determine what type of locks we need.
 2. Create a LockManager.
 3. Define procedures for business transactions to use locks.
+
+
+POL requires at minimum choreographing an
+1. application session
+2. business transaction
+3. lock manager
+4. system transaction
+5. which clearly is a challenge.
+
