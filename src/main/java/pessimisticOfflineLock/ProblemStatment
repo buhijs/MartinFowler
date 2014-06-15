@@ -2,4 +2,10 @@ How are we going to maintain data integrity in a multi-user concurrent system?
 
 How are we going to overcome the limitations of Optimistic offline locking?
 
+1. It is a compliment to OOL
+
+2. Use when conflict possibilities is high between object.
+
+3. Choose between long transaction and Pessimistic offline lock.
+
 Solution 2: PessimisticOfflineLock
