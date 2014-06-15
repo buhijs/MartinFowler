@@ -9,3 +9,9 @@ How are we going to overcome the limitations of Optimistic offline locking?
 3. Choose between long transaction and Pessimistic offline lock.
 
 Solution 2: PessimisticOfflineLock
+
+Three steps to implement this.
+
+1. Determine what type of locks we need.
+2. Create a LockManager.
+3. Define procedures for business transactions to use locks.
