@@ -15,4 +15,8 @@ public class AppSession {
         this.id = id;
         this.identityMap = identityMap;
     }
+
+    public String getId() {
+        return id;
+    }
 }
