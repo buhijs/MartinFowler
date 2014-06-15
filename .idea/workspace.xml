@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bac52138-d195-4531-9885-652ae32f067a" name="Default" comment="POL">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pessimisticOfflineLock/ControllerServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pessimisticOfflineLock/EditCustomerCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pessimisticOfflineLock/Mapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pessimisticOfflineLock/MapperRegistry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pessimisticOfflineLock/BusinessTransactionCommand.java" afterPath="$PROJECT_DIR$/src/main/java/pessimisticOfflineLock/BusinessTransactionCommand.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MartinFowler.iws" />
