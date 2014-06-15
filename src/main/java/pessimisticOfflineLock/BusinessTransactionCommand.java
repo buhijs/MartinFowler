@@ -7,7 +7,7 @@ import javax.servlet.http.HttpSession;
 /**
  * Created by cassandra on 6/15/14.
  */
-class BusinessTransactionCommand implements Command {
+abstract class BusinessTransactionCommand implements Command {
 
     private static final String APP_SESSION = "app_session";
     private static final String LOCK_REMOVE = "lock_remove";
