@@ -14,6 +14,13 @@ public class ExampleClass {
     public static void main(String arp[]) {
         ApplicationContext appContext = new ClassPathXmlApplicationContext("spring-config.xml");
         DataSource dataSource = (DataSource) appContext.getBean("dataSource");
+
+        optimisticOfflineLockExample(dataSource);
+
+        
+    }
+
+    private static void optimisticOfflineLockExample(DataSource dataSource) {
         JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
 
         OOLSession oolSession1 = new OOLSession(jdbcTemplate);
